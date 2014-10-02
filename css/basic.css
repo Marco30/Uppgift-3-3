@@ -59,6 +59,7 @@ table {
         border-left: 1px solid black;
         background: #4F463C;
         color: wheat;
+        
     }
     
     #topbar 
@@ -97,3 +98,48 @@ table {
         background: #E8E5D1;
         
     }
+
+/* meny */
+    #menu
+    {
+        border-bottom: 1px solid #666666;
+    }
+    
+    #menu ul
+    {
+    padding: 0.5em 0;
+    margin: 0;
+    }
+    
+    #menu li
+    {
+    margin-right: 0.2em; 
+    display: inline; 
+    list-style: none;
+    }
+    
+    #menu li a
+    {
+        text-decoration: none; 
+        padding: 0.5em 1em; 
+        margin-left: 0; 
+        background: #786f66; 	
+        font-weight: bold;
+        color: #e8e5d1; 
+    }
+    
+    #menu a:hover
+    {
+        background: #e8e5d1;
+        color: #786f66;
+    }
+    
+  #menu li .active /* visar vilken sida man är på i menyn genom att göra den lenken svart*/
+{
+        background: black;
+}
+
+ #menu #active /* visar vilken sida man är på i menyn genom att göra den lenken svart*/
+{
+        background: black;
+}
