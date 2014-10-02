@@ -57,7 +57,7 @@ margin: 0px auto;
 border-top: 1px solid #000;
 border-right: 1px solid #000;
 border-left: 1px solid #000;
-background: none repeat scroll 0% 0% #4F463C;
+background: #4F463C;
 color: #F5DEB3;
         
     }
@@ -73,11 +73,13 @@ font-size: 12px;
     }
     #content
     {
-       float: left;
-width: 602px;
+      float: left;
+width: 600px;
 color: #786F66;
 margin: 40px 20px 0px -1px;
-background: none repeat scroll 0% 0% #E8E5D1;
+background: #E8E5D1;
+border-left: 1px solid #666;
+border-right: 1px solid #666;
     }
     
     #maincontent 
@@ -85,7 +87,7 @@ background: none repeat scroll 0% 0% #E8E5D1;
        float: left;
 width: 369px;
 padding: 10px;
-background: none repeat scroll 0% 0% #E8E5D1;
+background: #E8E5D1;
 
         
     }
@@ -93,7 +95,6 @@ background: none repeat scroll 0% 0% #E8E5D1;
      #maincontent H1
      {
          line-height:20px;
-        font-weight: bold;
         text-align:left;
         font-size: 35px;
         font-family: Times New Roman;
@@ -102,10 +103,18 @@ background: none repeat scroll 0% 0% #E8E5D1;
        #maincontent p
      {
          text-align: left;
-font-size: 14px;
-font-family: Times New Roman;
+font-size: 12px;
 font-family: Verdana;
+margin: 18px 56px 13px -2px;
+line-height: 19px;
      }
+    
+     #maincontent img
+     {
+         float: left;
+margin: 19px 8px 10px 4px;
+     }
+   
     
     #subcontent 
     {
@@ -135,20 +144,26 @@ line-height: 18px;
      
       #subcontent H2
      {
-        font-weight: bold;
-text-align: left;
-font-size: 16px;
+        text-align: left;
+font-size: 14px;
 font-family: Times New Roman;
-margin: 10px 34px 13px -2px;
+margin: 24px 34px 3px -2px;
+font-weight: bold;
      }
      
        #subcontent ul
      {
        text-align: left;
-font-size: 9px;
+font-size: 12px;
 font-family: Verdana;
 line-height: 18px;
+
      }
+     
+     #subcontent li a
+    {
+       color: #786F66;
+    }
     
     #bottomcontent 
     {
@@ -156,6 +171,8 @@ line-height: 18px;
         padding: 10px;
         border-bottom: 1px solid #666;
         background: #E8E5D1;
+        font-size: 12px;
+font-family: Times New Roman;
         
     }
 
@@ -170,7 +187,7 @@ line-height: 18px;
     
     #menu ul
     {
-    background: none repeat scroll 0% 0% #4F463C;
+    background: #4F463C;
 margin: 185px 0px 0px -1px;
 width: 566px;
 padding: 18px 18px;
@@ -196,13 +213,13 @@ list-style: none outside none;
     }
  
     
-    #menu a:hover
+    #menu li a:hover
     {
         background: #e8e5d1;
         color: #786f66;
     }
     
-  #menu li .active a/* visar vilken sida man är på i menyn genom att göra den lenken svart*/
+  #menu .active /* visar vilken sida man är på i menyn genom att göra den lenken svart*/
 {
         background: black;
 }
