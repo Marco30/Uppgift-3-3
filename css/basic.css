@@ -52,44 +52,104 @@ table {
 /* Sidans layout */
     #container 
     {
-        width: 700px;
-        margin: 0px auto;
-        border-top: 1px solid black;
-        border-right: 1px solid black;
-        border-left: 1px solid black;
-        background: #4F463C;
-        color: wheat;
+        width: 600px;
+margin: 0px auto;
+border-top: 1px solid #000;
+border-right: 1px solid #000;
+border-left: 1px solid #000;
+background: none repeat scroll 0% 0% #4F463C;
+color: #F5DEB3;
         
     }
     
     #topbar 
     {
-        padding: 10px; 
-        margin: 0;
+        padding: 1px;
+margin: 0px;
+height: 15px;
+text-align: right;
+font-family: Times New Roman;
+font-size: 12px;
     }
     #content
     {
-        float: left;
-        width: 700px;
-        background:  #E8E5D1;
-        color: #786F66;
+       float: left;
+width: 602px;
+color: #786F66;
+margin: 40px 20px 0px -1px;
+background: none repeat scroll 0% 0% #E8E5D1;
     }
     
     #maincontent 
     {
-        float: left;
-        width: 480px;
-        padding: 10px;
-        background: #E8E5D1;
+       float: left;
+width: 369px;
+padding: 10px;
+background: none repeat scroll 0% 0% #E8E5D1;
+
         
     }
+    
+     #maincontent H1
+     {
+         line-height:20px;
+        font-weight: bold;
+        text-align:left;
+        font-size: 35px;
+        font-family: Times New Roman;
+     }
+     
+       #maincontent p
+     {
+         text-align: left;
+font-size: 14px;
+font-family: Times New Roman;
+font-family: Verdana;
+     }
+    
     #subcontent 
     {
-        float: left; 
-        width: 180px; 
-        padding: 10px;
+        float: left;
+width: 180px;
+border-left: 2px dotted #000;
+padding: 10px;
         
     }
+    
+     #subcontent H1
+     {
+        font-weight: bold;
+text-align: left;
+font-size: 16px;
+font-family: Times New Roman;
+margin: 10px 34px 13px -2px;
+     }
+     
+       #subcontent p
+     {
+       text-align: left;
+font-size: 9px;
+font-family: Verdana;
+line-height: 18px;
+     }
+     
+      #subcontent H2
+     {
+        font-weight: bold;
+text-align: left;
+font-size: 16px;
+font-family: Times New Roman;
+margin: 10px 34px 13px -2px;
+     }
+     
+       #subcontent ul
+     {
+       text-align: left;
+font-size: 9px;
+font-family: Verdana;
+line-height: 18px;
+     }
+    
     #bottomcontent 
     {
         clear: both;
@@ -103,19 +163,26 @@ table {
     #menu
     {
         border-bottom: 1px solid #666666;
+        background-image: url(pics/coffey.jpg);
+        height: 200px; 
+        
     }
     
     #menu ul
     {
-    padding: 0.5em 0;
-    margin: 0;
+    background: none repeat scroll 0% 0% #4F463C;
+margin: 185px 0px 0px -1px;
+width: 566px;
+padding: 18px 18px;
+font-family: Verdana;
+font-size: 13px;
     }
     
     #menu li
     {
-    margin-right: 0.2em; 
-    display: inline; 
-    list-style: none;
+   margin-right: -3px;
+display: inline;
+list-style: none outside none;
     }
     
     #menu li a
@@ -127,6 +194,7 @@ table {
         font-weight: bold;
         color: #e8e5d1; 
     }
+ 
     
     #menu a:hover
     {
@@ -134,12 +202,8 @@ table {
         color: #786f66;
     }
     
-  #menu li .active /* visar vilken sida man är på i menyn genom att göra den lenken svart*/
+  #menu li .active a/* visar vilken sida man är på i menyn genom att göra den lenken svart*/
 {
         background: black;
 }
 
- #menu #active /* visar vilken sida man är på i menyn genom att göra den lenken svart*/
-{
-        background: black;
-}
