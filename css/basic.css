@@ -208,7 +208,7 @@ height: 5px;
     {
         text-decoration: none;
 padding: 8px 1em;
-margin-left: 0px;
+margin-left: -1px;
 color: #E8E5D1;
 background: #786F66;
 padding: 11px 3em 8px 8px;
@@ -236,7 +236,7 @@ border-top: 2px solid #827B72;
 margin-left: 0px;
 background: none repeat scroll 0% 0% #E8E5D1;
 color: #786F66;
-padding: 8px 1em 8px 10px;
+padding: 8px 1em 8px 8px;
 border-top: none;
 }
 
