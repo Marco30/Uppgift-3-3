@@ -88,7 +88,7 @@ border-right: 1px solid #ccc8b8;
     #maincontent 
     {
         float: left;
-        width: 369px;
+        width: 348px;
         padding: 10px;
         background: #E8E5D1;
     }
@@ -105,16 +105,16 @@ border-right: 1px solid #ccc8b8;
        #maincontent p
      {
         text-align: left;
-font-size: 11px;
+font-size: 13px;
 font-family: Verdana;
-margin: 20px 54px 13px 3px;
 line-height: 19px;
+margin: 17px 0px 7px 3px;
      }
     
      #maincontent img
      {
-       float: left;
-margin: 15px 5px -8px 4px;
+      float: left;
+margin: 14px 9px -8px 2px;
      }
    
     
