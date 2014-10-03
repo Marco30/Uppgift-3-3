@@ -80,7 +80,7 @@ color: #E8E5D1;
        float: left;
 width: 600px;
 color: #786F66;
-margin: -1px 20px 0px -1px;
+margin: 0px 20px 0px -1px;
 background: none repeat scroll 0% 0% #E8E5D1;
 border-left: 1px solid #ccc8b8;
 border-right: 1px solid #ccc8b8;
@@ -194,24 +194,23 @@ font-size: 13px;
 background: none repeat scroll 0% 0% #4F463C;
 width: 566px;
 padding: 18px;
-height: 5px;
+height: 4px;
+text-transform: capitalize;
     }
     
     #menu li
     {
-        margin-right: -3px;
-        display: inline;
+        margin-right: 0px;
+        display: inline-block;
         list-style: none outside none;
     }
     
     #menu li a
     {
         text-decoration: none;
-padding: 8px 1em;
-margin-left: -1px;
 color: #E8E5D1;
 background: #786F66;
-padding: 9px 3em 8px 8px;
+padding: 7px 16px 8px 16px;
 border-top: 2px solid #827B72;
     }
  
@@ -220,8 +219,6 @@ border-top: 2px solid #827B72;
     {
         background: #9c9084;
         color: #e8e5d1;
-        border-top: none;
-        padding: 9px 3em 8px 8px;
         border-top: 2px solid #827B72;
     }
     
@@ -232,11 +229,10 @@ border-top: 2px solid #827B72;
     
   #menu li.active a /* visar vilken sida man är på i menyn genom att göra den lenken svart*/
 {
-       text-decoration: none;
-margin-left: 1px;
+text-decoration: none;
 background: none repeat scroll 0% 0% #E8E5D1;
 color: #786F66;
-padding: 7px 3em 8px 8px;
+padding: 4px 16px 8px 16px;
 border-top: none;
 }
 
