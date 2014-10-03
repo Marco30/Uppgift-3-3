@@ -53,32 +53,36 @@ table {
     #container 
     {
         width: 600px;
-        margin: 0px auto;
-        border-top: 1px solid #000;
-        border-right: 1px solid #000;
-        border-left: 1px solid #000;
-        background: #4F463C;
-        color: #F5DEB3;
+margin: 0px auto;
+border-right: 1px solid #ccc8b8;
+border-left: 1px solid #ccc8b8;
+color: #F5DEB3;
+border-top: 1px solid #ccc8b8;
+background: url('pics/coffey.jpg') repeat scroll 0% 0% #4F463C;
+height: 247px;
     }
     
     #topbar 
     {
-        padding: 1px;
-        margin: 0px;
-        height: 15px;
-        text-align: right;
-        font-family: Times New Roman;
-        font-size: 12px;
+       padding: 9px;
+margin: 0px;
+height: 0px;
+font-style: italic;
+font-size: 11px;
+background: none repeat scroll 0% 0% #4F463C;
+text-align: right;
+line-height: 0px;
     }
+    
     #content
     {
-        float: left;
-        width: 600px;
-        color: #786F66;
-        margin: 40px 20px 0px -1px;
-        background: #E8E5D1;
-        border-left: 1px solid #666;
-        border-right: 1px solid #666;
+       float: left;
+width: 600px;
+color: #786F66;
+margin: -1px 20px 0px -1px;
+background: none repeat scroll 0% 0% #E8E5D1;
+border-left: 1px solid #ccc8b8;
+border-right: 1px solid #ccc8b8;
     }
     
     #maincontent 
@@ -91,52 +95,54 @@ table {
     
      #maincontent H1
      {
-        line-height:20px;
-        text-align:left;
-        font-size: 35px;
-        font-family: Times New Roman;
+            line-height: 20px;
+    text-align: left;
+    font-size: 35px;
+    font-family: Times New Roman;
+    margin: 29px 2px 1px -2px;
      }
      
        #maincontent p
      {
         text-align: left;
-        font-size: 12px;
-        font-family: Verdana;
-        margin: 18px 56px 13px -2px;
-        line-height: 19px;
+font-size: 11px;
+font-family: Verdana;
+margin: 20px 54px 13px 3px;
+line-height: 19px;
      }
     
      #maincontent img
      {
-        float: left;
-        margin: 19px 8px 10px 4px;
+       float: left;
+margin: 15px 5px -8px 4px;
      }
    
     
     #subcontent 
     {
         float: left;
-        width: 180px;
-        border-left: 2px dotted #000;
-        padding: 10px;
+width: 180px;
+padding: 10px;
+border-left: 1px dashed #786F66;
+margin-top: 1cm;
         
     }
     
      #subcontent H1
      {
-        font-weight: bold;
-        text-align: left;
-        font-size: 16px;
-        font-family: Times New Roman;
-        margin: 10px 34px 13px -2px;
+       font-weight: bold;
+text-align: left;
+font-size: 16px;
+font-family: Times New Roman;
+margin: -3px 35px 11px -2px;
      }
      
        #subcontent p
      {
         text-align: left;
-        font-size: 9px;
-        font-family: Verdana;
-        line-height: 18px;
+font-size: 9px;
+font-family: Verdana;
+line-height: 18px;
      }
      
       #subcontent H2
@@ -165,10 +171,10 @@ table {
     {
         clear: both;
         padding: 10px;
-        border-bottom: 1px solid #666;
+        border-bottom: 1px solid #ccc8b8;
         background: #E8E5D1;
         font-size: 12px;
-        font-family: Times New Roman;
+        font-style: italic;
         
     }
 
@@ -176,19 +182,18 @@ table {
     #menu
     {
         border-bottom: 1px solid #666666;
-        background-image: url(pics/coffey.jpg);
-        height: 200px; 
         
     }
     
     #menu ul
     {
-        background: #4F463C;
-        margin: 185px 0px 0px -1px;
-        width: 566px;
-        padding: 18px 18px;
-        font-family: Verdana;
-        font-size: 13px;
+       margin: 182px 0px 0px -1px;
+font-family: Verdana;
+font-size: 13px;
+background: none repeat scroll 0% 0% #4F463C;
+width: 566px;
+padding: 18px;
+height: 5px;
     }
     
     #menu li
@@ -200,12 +205,11 @@ table {
     
     #menu li a
     {
-        text-decoration: none; 
-        padding: 0.5em 1em; 
-        margin-left: 0; 
-        background: #786f66; 	
-        font-weight: bold;
-        color: #e8e5d1; 
+        text-decoration: none;
+padding: 8px 1em;
+margin-left: 0px;
+color: #E8E5D1;
+background: #786F66;
     }
  
     
@@ -215,8 +219,17 @@ table {
         color: #786f66;
     }
     
-  #menu .active /* visar vilken sida man är på i menyn genom att göra den lenken svart*/
+    #menu > a
+    {
+   display: none; 
+    }
+    
+  #menu li.active a /* visar vilken sida man är på i menyn genom att göra den lenken svart*/
 {
-        background: black;
+       text-decoration: none;
+margin-left: 0px;
+background: none repeat scroll 0% 0% #E8E5D1;
+color: #786F66;
+padding: 8px 1em;
 }
 
