@@ -69,9 +69,10 @@ margin: 0px;
 height: 0px;
 font-style: italic;
 font-size: 11px;
-background: none repeat scroll 0% 0% #4F463C;
+background: #4F463C;
 text-align: right;
 line-height: 0px;
+color: #E8E5D1;
     }
     
     #content
@@ -210,13 +211,18 @@ padding: 8px 1em;
 margin-left: 0px;
 color: #E8E5D1;
 background: #786F66;
+padding: 11px 3em 8px 8px;
+border-top: 2px solid #827B72;
     }
  
     
     #menu li a:hover
     {
-        background: #e8e5d1;
-        color: #786f66;
+        background: #9c9084;
+        color: #e8e5d1;
+        border-top: none;
+        padding: 11px 3em 8px 8px;
+        border-top: 2px solid #827B72;
     }
     
     #menu > a
@@ -230,6 +236,7 @@ background: #786F66;
 margin-left: 0px;
 background: none repeat scroll 0% 0% #E8E5D1;
 color: #786F66;
-padding: 8px 1em;
+padding: 8px 1em 8px 10px;
+border-top: none;
 }
 
